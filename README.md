@@ -16,7 +16,7 @@ Kami akan menggunakan 2 lapisan - Sebuah shapefile dari batas-batas Borough kota
 4. Nearest Neighbor Analysis
 SIG sangat berguna dalam menganalisis hubungan spasial antar fitur. Salah satu analisis tersebut adalah mencari tahu fitur mana yang paling dekat dengan fitur tertentu. Ada beberapa cara untuk melakukan analisis ini di QGIS. Anda dapat melakukan penggabungan spasial menggunakan Atribut Gabungan oleh Terdekat atau mendapatkan jarak ke semua fitur dari lapisan lain menggunakan alat Matriks Jarak dari Kotak Alat Pemrosesan. Dalam tutorial ini, kita akan menjelajahi alat bernama Jarak ke hub terdekat dari Kotak Alat Pemrosesan yang tidak hanya dapat menemukan jarak ke fitur terdekat tetapi juga menggabungkannya dengan garis untuk memvisualisasikan hasilnya.
 
-5.Sampling Raster Data using Points or Polygons
+5. Sampling Raster Data using Points or Polygons
 Banyak kumpulan data ilmiah dan lingkungan datang sebagai raster gridded. Data elevasi (DEM) juga didistribusikan sebagai file raster. Dalam file raster ini, parameter yang diwakili dikodekan sebagai nilai piksel raster. Seringkali, seseorang perlu mengekstrak nilai piksel di lokasi tertentu atau menggabungkannya di beberapa area. Fungsi ini tersedia di QGIS melalui algoritma pengolahan. untuk lapisan titik dan untuk lapisan poligon.
 
 6. Calculating Raster Area 
